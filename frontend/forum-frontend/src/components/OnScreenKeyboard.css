@@ -1,0 +1,56 @@
+.virtual-keyboard {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: var(--color-background);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+}
+
+.keyboard-keys {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 8px;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.key:hover {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.key:active {
+  transform: scale(0.95);
+}
+
+.keyboard-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.action-key {
+  min-width: 120px;
+  background-color: var(--color-text-secondary);
+  border-color: var(--color-text-secondary);
+  color: white;
+}
+.action-key:hover {
+  background-color: #5a6268;
+}
