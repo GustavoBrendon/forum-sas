@@ -1,6 +1,6 @@
 # 💬 Projeto Fórum React
 
-Este repositório contém um projeto de <a href="https://github.com/GustavoBrendon/forum-react">fórum online</a> com algumas medidas de segurança implementadas para o trabalho acadêmico na matéria de Segurança e Auditoria de Sistemas. 
+Este repositório contém um projeto de <a href="https://github.com/GustavoBrendon/forum-react" target="_blank">fórum online</a> com algumas medidas de segurança implementadas para o trabalho acadêmico na matéria de Segurança e Auditoria de Sistemas. 
 
 ## 📌 Objetivo
 
